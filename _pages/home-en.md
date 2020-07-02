@@ -2,7 +2,7 @@
 layout: index
 permalink: '/index-en.html'
 
-linkPT: indx.html
+linkPT: index.html
 linkEN: index-en.html
 
 menu5propostas: 5 proposals for postponing the end of the world
