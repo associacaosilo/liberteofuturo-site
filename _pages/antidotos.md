@@ -10,6 +10,10 @@ menuMovimento: Movimento
 menuLaboratorio: Laboratório
 menuParticipe: Participe
 
+menuMovimentoLink: movimento.html
+menuLaboratorioLink: laboratorio.html
+menuParticipeLink: participe.html 
+
 menuSubtitulo1: Imagine como quer viver
 menuSubtitulo2: Para que seja mais do que votar a cada eleição
 menuSubtitulo3: Para eliminar as práticas de consumo
@@ -31,5 +35,6 @@ categoria5Link: insurreicao.html
 
 titulo: Antídotos
 subtitulo: Contra o fim do mundo. imagine como quer viver. (ouse! sonhe, crie, extrapole a razão)
+logoArquivo: antidoto
 
 ---
