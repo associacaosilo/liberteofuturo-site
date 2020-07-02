@@ -35,5 +35,6 @@ categoria5Link: insurreicao-en.html
 
 titulo: Antidotes
 subtitulo: Against the end of the world. Imagine how you want to live. (Dare! Dream, create, defy your own imagination.)
+logoArquivo: democracia
 
 ---
