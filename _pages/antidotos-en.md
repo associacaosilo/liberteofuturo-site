@@ -10,6 +10,10 @@ menuMovimento: Movement
 menuLaboratorio: Laboratory
 menuParticipe: Join us
 
+menuMovimentoLink: movimento-en.html
+menuLaboratorioLink: laboratorio-en.html
+menuParticipeLink: participe-en.html 
+
 menuSubtitulo1: Imagine how you want to live
 menuSubtitulo2: So that it is more than voting for each election
 menuSubtitulo3: To eliminate consumer practices
