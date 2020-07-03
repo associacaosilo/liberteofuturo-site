@@ -4,7 +4,7 @@ notifications:
   email: false
 
 before_script:
-- wget 'https://docs.google.com/spreadsheets/d/e/2PACX-1vScL-x9_AoT-nZ8vbQXsnl94p-jbBNWSXqj1UYzP-wGtTJSsvW4hDQhA2xPsGbo6udSt9pP6aiwa5j3/pub?gid=0&single=true&output=csv' -O _data/antidoto.csv
+- wget 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQssPMP5qhidmF0jvycd2IYtm2PP8pPiFjKRcADwdtXUZHEOyNiwy6kDZJ6DOq_gB2qV4ehd3arVgnA/pub?gid=0&single=true&output=csv' -O _data/antidoto.csv
 
 deploy:
   provider: pages
