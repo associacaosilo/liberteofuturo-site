@@ -23,7 +23,7 @@ menuSubtitulo5: Defina a melhor ação de desobediência civil
 categoria1: Antídotos
 categoria2: Democracia
 categoria3: Consumo
-categoria4: Clima
+categoria4: Emergência Climática
 categoria5: Insurreição
 
 categoria1Link: antidotos.html
