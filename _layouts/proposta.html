@@ -50,85 +50,68 @@
 
         <section id="democracia" class="bg_dark_green padding_bottom40">
             <div class="container nopadding">
+                {% if page.logoArquivo == "antidoto" %}
                 <div class="row bottom20">
+                    {% for antidoto in site.data.antidoto %}
                     <div class="col-xs-3 col-lg-3">
                         <div class="block sides10">
-                            <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
+                            <a href="{{antidoto.url}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
                         </div>
-                        <p class="left10 font12 bold font_second link soft_green title">Fulana Famosa</p>
+                        <p class="left10 font12 bold font_second link soft_green title">{{antidoto.autor}}</p>
                     </div>
-                    <div class="col-xs-3 col-lg-3">
-                        <div class="block sides10">
-                            <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                        </div>
-                        <p class="left10 font12 bold font_second link soft_green title">Fulana Famosa</p>
-                    </div>
-                    <div class="col-xs-3 col-lg-3">
-                        <div class="block sides10">
-                            <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                        </div>
-                        <p class="left10 font12 bold font_second link soft_green title">Fulana Famosa</p>
-                    </div>
-                    <div class="col-xs-3 col-lg-3">
-                        <div class="block sides10">
-                            <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                        </div>
-                        <p class="left10 font12 bold font_second link soft_green title">Fulana Famosa</p>
-                    </div>
+                    {% endfor %}
                 </div>
+                
+                {% elsif page.logoArquivo == "democracia" %}
                 <div class="row bottom20">
+                    {% for democracia in site.data.democracia %}
                     <div class="col-xs-3 col-lg-3">
                         <div class="block sides10">
-                            <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
+                            <a href="{{democracia.url}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
                         </div>
-                        <p class="left10 font12 bold font_second link soft_green title">Fulana Famosa</p>
+                        <p class="left10 font12 bold font_second link soft_green title">{{democracia.autor}}</p>
                     </div>
-                    <div class="col-xs-3 col-lg-3">
-                        <div class="block sides10">
-                            <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                        </div>
-                        <p class="left10 font12 bold font_second link soft_green title">Fulana Famosa</p>
-                    </div>
-                    <div class="col-xs-3 col-lg-3">
-                        <div class="block sides10">
-                            <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                        </div>
-                        <p class="left10 font12 bold font_second link soft_green title">Fulana Famosa</p>
-                    </div>
-                    <div class="col-xs-3 col-lg-3">
-                        <div class="block sides10">
-                            <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                        </div>
-                        <p class="left10 font12 bold font_second link soft_green title">Fulana Famosa</p>
-                    </div>
+                    {% endfor %}
                 </div>
+                
+                {% elsif page.logoArquivo == "consumo" %}
                 <div class="row bottom20">
+                    {% for consumo in site.data.consumo %}
                     <div class="col-xs-3 col-lg-3">
                         <div class="block sides10">
-                            <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
+                            <a href="{{consumo.url}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
                         </div>
-                        <p class="left10 font12 bold font_second link soft_green title">Fulana Famosa</p>
+                        <p class="left10 font12 bold font_second link soft_green title">{{consumo.autor}}</p>
                     </div>
-                    <div class="col-xs-3 col-lg-3">
-                        <div class="block sides10">
-                            <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                        </div>
-                        <p class="left10 font12 bold font_second link soft_green title">Fulana Famosa</p>
-                    </div>
-                    <div class="col-xs-3 col-lg-3">
-                        <div class="block sides10">
-                            <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                        </div>
-                        <p class="left10 font12 bold font_second link soft_green title">Fulana Famosa</p>
-                    </div>
-                    <div class="col-xs-3 col-lg-3">
-                        <div class="block sides10">
-                            <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                        </div>
-                        <p class="left10 font12 bold font_second link soft_green title">Fulana Famosa</p>
-                    </div>
+                    {% endfor %}
                 </div>
+                
+                {% elsif page.logoArquivo == "clima" %}
+                <div class="row bottom20">
+                    {% for clima in site.data.clima %}
+                    <div class="col-xs-3 col-lg-3">
+                        <div class="block sides10">
+                            <a href="{{clima.url}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
+                        </div>
+                        <p class="left10 font12 bold font_second link soft_green title">{{clima.autor}}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+                
+                {% elsif page.logoArquivo == "insurreicao" %}
+                <div class="row bottom20">
+                    {% for insurreicao in site.data.insurreicao %}
+                    <div class="col-xs-3 col-lg-3">
+                        <div class="block sides10">
+                            <a href="{{insurreicao.url}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
+                        </div>
+                        <p class="left10 font12 bold font_second link soft_green title">{{insurreicao.autor}}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
             </div>
+            
         </section>
 
 
