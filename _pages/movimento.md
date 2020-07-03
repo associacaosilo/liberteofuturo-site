@@ -24,7 +24,7 @@ categoria1: Antídotos
 categoria2: Democracia
 categoria3: Consumo
 categoria4: Clima
-categoria5: Inssureição
+categoria5: Insurreição
 
 categoria1Link: antidotos.html
 categoria2Link: democracia.html
