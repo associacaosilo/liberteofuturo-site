@@ -2,3 +2,9 @@ language: minimal
 
 notifications:
   email: false
+
+before_install:
+- brew install git-lfs
+
+before_script:
+- git-fls pull
