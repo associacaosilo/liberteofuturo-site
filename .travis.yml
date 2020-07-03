@@ -6,6 +6,7 @@ notifications:
 before_script:
 - wget 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQssPMP5qhidmF0jvycd2IYtm2PP8pPiFjKRcADwdtXUZHEOyNiwy6kDZJ6DOq_gB2qV4ehd3arVgnA/pub?gid=0&single=true&output=csv' -O _data/antidoto.csv
 - wget 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQssPMP5qhidmF0jvycd2IYtm2PP8pPiFjKRcADwdtXUZHEOyNiwy6kDZJ6DOq_gB2qV4ehd3arVgnA/pub?gid=344434086&single=true&output=csv' -O _data/democracia.csv
+- wget 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQssPMP5qhidmF0jvycd2IYtm2PP8pPiFjKRcADwdtXUZHEOyNiwy6kDZJ6DOq_gB2qV4ehd3arVgnA/pub?gid=1906445525&single=true&output=csv' -O _data/consumo.csv
 
 deploy:
   provider: pages
