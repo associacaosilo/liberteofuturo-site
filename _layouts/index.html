@@ -13,7 +13,7 @@
             <div class="text_center">
                 <img src="i/logos/logo_vertical.svg" class="max_width500">
             </div>
-            
+
         </header>
 
 
@@ -41,97 +41,14 @@
                     <div class="row">
                         <div class="MultiCarousel" data-items="1,2,4,5" data-slide="1" id="MultiCarousel"  data-interval="1000">
                             <div class="MultiCarousel-inner">
+                                {% for antidoto in site.data.antidoto %}
                                 <div class="item">
                                     <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
+                                        <a href="{{antidoto.url}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
                                     </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
+                                    <p class="left10 font12 medium font_second link soft_green title">{{antidoto.autor}}</p>
                                 </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Beltrana Oliveira</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Beltrana Oliveira</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Beltrana Oliveira</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
+                                {% endfor %}
                             </div>
                             <button class="btn orange leftLst"><img src="i/slick-arrow-left.svg"/></button>
                             <button class="btn orange rightLst"><img src="i/slick-arrow-right.svg"/></button>
@@ -167,97 +84,14 @@
                 <div class="row">
                     <div class="MultiCarousel" data-items="1,2,4,5" data-slide="1" id="MultiCarousel"  data-interval="1000">
                         <div class="MultiCarousel-inner">
+                            {% for democracia in site.data.democracia %}
                             <div class="item">
                                 <div class="margin_auto bottom60 max_width370 block sides10">
-                                    <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
+                                    <a href="{{democracia.url}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
                                 </div>
-                                <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
+                                <p class="left10 font12 medium font_second link soft_green title">{{democracia.autor}}</p>
                             </div>
-                            <div class="item">
-                                <div class="margin_auto bottom60 max_width370 block sides10">
-                                    <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                </div>
-                                <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                            </div>
-                            <div class="item">
-                                <div class="margin_auto bottom60 max_width370 block sides10">
-                                    <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                </div>
-                                <p class="left10 font12 medium font_second link soft_green title">Beltrana Oliveira</p>
-                            </div>
-                            <div class="item">
-                                <div class="margin_auto bottom60 max_width370 block sides10">
-                                    <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                </div>
-                                <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                            </div>
-                            <div class="item">
-                                <div class="margin_auto bottom60 max_width370 block sides10">
-                                    <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                </div>
-                                <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                            </div>
-                            <div class="item">
-                                <div class="margin_auto bottom60 max_width370 block sides10">
-                                    <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                </div>
-                                <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                            </div>
-                            <div class="item">
-                                <div class="margin_auto bottom60 max_width370 block sides10">
-                                    <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                </div>
-                                <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                            </div>
-                            <div class="item">
-                                <div class="margin_auto bottom60 max_width370 block sides10">
-                                    <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                </div>
-                                <p class="left10 font12 medium font_second link soft_green title">Beltrana Oliveira</p>
-                            </div>
-                            <div class="item">
-                                <div class="margin_auto bottom60 max_width370 block sides10">
-                                    <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                </div>
-                                <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                            </div>
-                            <div class="item">
-                                <div class="margin_auto bottom60 max_width370 block sides10">
-                                    <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                </div>
-                                <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                            </div>
-
-                            <div class="item">
-                                <div class="margin_auto bottom60 max_width370 block sides10">
-                                    <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                </div>
-                                <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                            </div>
-                            <div class="item">
-                                <div class="margin_auto bottom60 max_width370 block sides10">
-                                    <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                </div>
-                                <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                            </div>
-                            <div class="item">
-                                <div class="margin_auto bottom60 max_width370 block sides10">
-                                    <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                </div>
-                                <p class="left10 font12 medium font_second link soft_green title">Beltrana Oliveira</p>
-                            </div>
-                            <div class="item">
-                                <div class="margin_auto bottom60 max_width370 block sides10">
-                                    <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                </div>
-                                <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                            </div>
-                            <div class="item">
-                                <div class="margin_auto bottom60 max_width370 block sides10">
-                                    <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                </div>
-                                <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                            </div>
+                            {% endfor %}
                         </div>
                         <button class="btn orange leftLst"><img src="i/slick-arrow-left.svg"/></button>
                         <button class="btn orange rightLst"><img src="i/slick-arrow-right.svg"/></button>
@@ -290,97 +124,14 @@
                     <div class="row">
                         <div class="MultiCarousel" data-items="1,2,4,5" data-slide="1" id="MultiCarousel"  data-interval="1000">
                             <div class="MultiCarousel-inner">
+                                {% for consumo in site.data.democracia %}
                                 <div class="item">
                                     <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
+                                        <a href="{{consumo.url}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
                                     </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
+                                    <p class="left10 font12 medium font_second link soft_green title">{{consumo.autor}}</p>
                                 </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Beltrana Oliveira</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Beltrana Oliveira</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Beltrana Oliveira</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
+                                {% endfor %}
                             </div>
                             <button class="btn orange leftLst"><img src="i/slick-arrow-left.svg"/></button>
                             <button class="btn orange rightLst"><img src="i/slick-arrow-right.svg"/></button>
@@ -414,97 +165,14 @@
                     <div class="row">
                         <div class="MultiCarousel" data-items="1,2,4,5" data-slide="1" id="MultiCarousel"  data-interval="1000">
                             <div class="MultiCarousel-inner">
+                                {% for clima in site.data.clima %}
                                 <div class="item">
                                     <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
+                                        <a href="{{clima.url}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
                                     </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
+                                    <p class="left10 font12 medium font_second link soft_green title">{{clima.autor}}</p>
                                 </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Beltrana Oliveira</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Beltrana Oliveira</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Beltrana Oliveira</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
+                                {% endfor %}
                             </div>
                             <button class="btn orange leftLst"><img src="i/slick-arrow-left.svg"/></button>
                             <button class="btn orange rightLst"><img src="i/slick-arrow-right.svg"/></button>
@@ -538,97 +206,14 @@
                     <div class="row">
                         <div class="MultiCarousel" data-items="1,2,4,5" data-slide="1" id="MultiCarousel"  data-interval="1000">
                             <div class="MultiCarousel-inner">
+                                {% for insurreicao in site.data.insurreicao %}
                                 <div class="item">
                                     <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
+                                        <a href="{{insurreicao.url}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
                                     </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
+                                    <p class="left10 font12 medium font_second link soft_green title">{{insurreicao.autor}}</p>
                                 </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Beltrana Oliveira</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Beltrana Oliveira</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Beltrana Oliveira</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Fulana Famosa</p>
-                                </div>
-                                <div class="item">
-                                    <div class="margin_auto bottom60 max_width370 block sides10">
-                                        <a href="https://www.youtube.com/embed/Jacn7ZkYOnE?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red"><img src="i/video_poster.jpg" class="width_full" alt="" /></a>
-                                    </div>
-                                    <p class="left10 font12 medium font_second link soft_green title">Ciclana da Silva</p>
-                                </div>
+                                {% endfor %}
                             </div>
                             <button class="btn orange leftLst"><img src="i/slick-arrow-left.svg"/></button>
                             <button class="btn orange rightLst"><img src="i/slick-arrow-right.svg"/></button>
@@ -641,7 +226,7 @@
         <footer class="footer_11 bg_dark padding_top25 padding_bottom20">
             {% include footer.html %}
         </footer>
-        
+
         <!-- popup with video -->
         <div class="overlay"></div>
 
@@ -653,6 +238,6 @@
         </div>
 
         {% include scripts.html %}
-        
+
     </body>
 </html>
