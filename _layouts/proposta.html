@@ -17,9 +17,27 @@
                     <div class="left15">
                         <img src="i/logos/{{page.logoArquivo}}.svg" class="width80">
                     </div>
+                    {% if page.logoArquivo == "antidoto" %}
                     <div class="top20 left20 right10 font42 uppercase bold font_second dark_gray title">
                         01
                     </div>
+                    {% elsif page.logoArquivo == "democracia" %}
+                    <div class="top20 left20 right10 font42 uppercase bold font_second dark_gray title">
+                        02
+                    </div>
+                    {% elsif page.logoArquivo == "consumo" %}
+                    <div class="top20 left20 right10 font42 uppercase bold font_second dark_gray title">
+                        03
+                    </div>
+                    {% elsif page.logoArquivo == "clima" %}
+                    <div class="top20 left20 right10 font42 uppercase bold font_second dark_gray title">
+                        04
+                    </div>
+                    {% elsif page.logoArquivo == "insurreicao" %}
+                    <div class="top20 left20 right10 font42 uppercase bold font_second dark_gray title">
+                        05
+                    </div>
+                    {% endif %}
                     <div class="top20 font42 uppercase bold font_second dark title">
                         {{page.titulo}}
                     </div>
@@ -28,6 +46,8 @@
                     {{page.subtitulo}}
                 </div>	
             </div>
+            
+            
             <div class="container nopadding text-left">
                 <div class="container nopadding">
                     <div class="row justify-content-center">
@@ -121,7 +141,6 @@
                 </div>
                 {% endif %}
             </div>
-            
         </section>
 
 
