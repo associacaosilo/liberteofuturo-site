@@ -11,6 +11,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  color: #3E3B2E;
   /* background:#ccc;
 height:10000px; */
 }
@@ -39,7 +40,7 @@ nav.transparent {
 }
 
 a {
-  color: #2c3e50;
+/*  color: #2c3e50;*/
   cursor: pointer;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -143,7 +144,7 @@ b, strong {
 }
 .MultiCarousel .leftLst, .MultiCarousel .rightLst { 
     position:absolute;
-    height: 45px;
+    height: 37px;
     border-radius: 50%;
     top:calc(50% - 30px); 
 }
