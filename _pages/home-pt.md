@@ -6,7 +6,7 @@ linkPT: index.html
 linkEN: index-en.html
 
 menu5propostas: 5 propostas para o fim do mundo
-menuMovimento: Movimento
+menuMovimento: O movimento
 menuLaboratorio: Laboratório
 menuParticipe: Participe
 
