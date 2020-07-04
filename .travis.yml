@@ -9,6 +9,7 @@ before_script:
 - wget 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQssPMP5qhidmF0jvycd2IYtm2PP8pPiFjKRcADwdtXUZHEOyNiwy6kDZJ6DOq_gB2qV4ehd3arVgnA/pub?gid=1906445525&single=true&output=csv' -O _data/consumo.csv
 - wget 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQssPMP5qhidmF0jvycd2IYtm2PP8pPiFjKRcADwdtXUZHEOyNiwy6kDZJ6DOq_gB2qV4ehd3arVgnA/pub?gid=521509876&single=true&output=csv' -O _data/clima.csv
 - wget 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQssPMP5qhidmF0jvycd2IYtm2PP8pPiFjKRcADwdtXUZHEOyNiwy6kDZJ6DOq_gB2qV4ehd3arVgnA/pub?gid=1446219120&single=true&output=csv' -O _data/insurreicao.csv
+- wget 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS7z3nr6Q4TcCY2NKOGp-jtKxHWx2_FiX2Fq5sQO1ox65bamzhIXgt1XB1WfgIG9KlWu_m29Af5p7aI/pub?gid=1305061922&single=true&output=csv' -O _data/colaboradores.csv
 
 deploy:
   provider: pages
