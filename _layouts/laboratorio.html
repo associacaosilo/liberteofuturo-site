@@ -5,37 +5,85 @@
     </head> 
     <body>
 
+
         {% include navMobile.html %}
 
-        <header class="padding_top200 padding_bottom150 bg_dark_green parallax-image" style="height: 100%">
+
+        <header class="padding_top200 bg_dark_green parallax-image" style="height: 100%">
 
             {% include headerMenu.html %}
 
             <div class="container nopadding">
-                <div class="col-xl-12 col-lg-12 padding_bottom50 sand font_second bold font40 uppercase">
+                <div class="col-xl-12 col-lg-12 sand font_second bold font40 uppercase">
                     {{page.titulo}}
-                    <p class="font14 light soft_green">{{page.subtitulo}}</p>
                 </div>
-                <div class="col-xl-12 col-lg-12 padding_bottom80">
-                    <img src="i/headers/HOME_DESTAQUE_4.jpg" class="width_full">
+<!--
+                <div class="col-xl-12 col-lg-12 padding_bottom50 soft_green font_second bold font22 uppercase">
+                    {{page.subtitulo}}
                 </div>
-                <div class="col-xl-12 col-lg-12 white font_second font20">
-                    <p class="top20 bottom30">{{page.p1Lab}}</p>
-                    <p class="top20 bottom30">{{page.p2Lab}}.</p>
-                    <p class="top20 bottom30">{{page.p3Lab}}</p>
-                    <p class="top20 bottom30">{{page.p4Lab}}</p>
-                    <p class="top20 bottom30">{{page.p5Lab}} [link para formulário]</p>
+-->
+                <div class="col-xl-8 col-lg-8 white font_second font14">
+                    <p class="top20 bottom30">{{page.p1Movimento}}</p>
+                    <p class="top20 bottom30">{{page.p2Movimento}}</p>
+                    <p class="top20 bottom30">{{page.p3Movimento}}</p>
+                    <p class="top20 bottom30">{{page.p4Movimento}}</p>
+                    <p class="top20 bottom30">{{page.p5Movimento}}</p>
+                </div>
+                <div class="col-xl-12 col-lg-12 padding_top50 padding_bottom50 soft_green font_second bold font22 uppercase">
+                    {{page.subtituloFunciona}}
+                </div>
+                <div class="col-xl-12 col-lg-12 white font_second font14">
+                    <p class="top20 bottom30">{{page.p1Funciona}}</p>
+                    <ol class="light">
+                        <li><strong>{{page.categoria1}}:</strong> {{page.frase1}}</li>
+                        <li><strong>{{page.categoria2}}:</strong> {{page.frase2}}</li>
+                        <li><strong>{{page.categoria3}}:</strong> {{page.frase3}}</li>
+                        <li><strong>{{page.categoria4}}:</strong> {{page.frase4}}</li>
+                        <li><strong>{{page.categoria5}}:</strong> {{page.frase5}}</li>
+                    </ol>
+                    <p class="top20 bottom30">{{page.p2Funciona}}</p>
+                    <p class="top20 bottom30">{{page.p3Funciona}}</p>
+                    <p class="top20 bottom30">{{page.p4Funciona}}:<strong class="font18 left10 orange">{{page.p4FuncionaEnfase}}</strong>  {{page.p4FuncionaContinua}}
+                    </p>
+                    <p class="top20 bottom80"><q class="font18">{{page.p5FuncionaQuote}}</q> , {{page.p5Funciona}}
+                    </p>
+                </div>
+                <div class="col-xl-12 col-lg-12 padding_bottom30">
+                    <img src="i/headers/HOME_DESTAQUE_13.jpg" class="width_full">
+                </div>
+                <div class="col-xl-6 col-lg-6 padding_top50 sand font_second bold font40 uppercase">
+                    {{page.tituloQuemSomos}}
+                </div>
+                <div class="col-xl-12 col-lg-12 padding_bottom50 soft_green font_second bold font22 uppercase">
+                    {{page.subtituloQuemSomos}}
+                </div>
+                <div class="col-xl-12 col-lg-12 white font_second font14 bottom80">
+                    <p class="top20 bottom30">{{page.p1QuemSomos}}</p>
+                    <p class="top20 bottom30">{{page.p2QuemSomos}}</p>
+                    <a href= "https://docs.google.com/forms/d/e/1FAIpQLSc74-rSYZuEfts-7xkj_oh5AFmdY-WUJWkTIgQicyo5w7vhGA/viewform" class="top20 white">{{page.linkFormQuemSomos}}</a>
+                </div>
+                
+               
+                
+                <div class="row left20 padding_bottom80">
+                    <div class="col-xs-3 col-lg-3 font_second bold soft_green font12">
+                    {% for colaboradores in site.data.colaboradores limit:linhas %}
+                    {{colaboradores.colaborador}}<br/>
+                    {% endfor %}
+                    </div>
+                    <div class="col-xs-3 col-lg-3 font_second bold soft_green font12">
+                    </div>
+                    <div class="col-xs-3 col-lg-3 font_second bold soft_green font12">
+                    </div>
+                    <div class="col-xs-3 col-lg-3 font_second bold soft_green font12">
+                    </div>
                 </div>
             </div>		
         </header>
 
-
         <footer class="footer_11 bg_dark padding_top25 padding_bottom20">
             {% include footer.html %}
         </footer>
-        
-        <!-- popup with video -->
-        <div class="overlay"></div>
 
         <div class="video_popup">
             <a class="close">
@@ -45,5 +93,6 @@
         </div>
 
         {% include scripts.html %}
+
     </body>
 </html>
