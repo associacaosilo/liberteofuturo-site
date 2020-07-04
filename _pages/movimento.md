@@ -5,7 +5,7 @@ permalink: '/movimento.html'
 linkPT: movimento.html
 linkEN: movimento-en.html
 
-menu5propostas: 5 propostas para o fim do mundo
+menu5propostas: 5 propostas para adiar o fim do mundo
 menuMovimento: O movimento
 menuLaboratorio: Laboratório
 menuParticipe: Participe
@@ -63,7 +63,7 @@ tituloQuemSomos: Quem somos
 subtituloQuemSomos: Todos os que fazem este movimento acontecer
 p1QuemSomos: Somos os 99,99%. Somos um movimento pela libertação do futuro. E em movimento crescemos a cada dia. Não há autoria, não há captura. Convidamos cada um a contribuir com uma reflexão crítica e dinâmica sobre o momento pós-pandemia e sobre outro mundo possível. Nessa rede nós somos rio e rua, imaginação e realidade, somos humanos e mais que humanos. A maneira como o mundo girava até a crise do novo coronavírus é uma catástrofe anunciada. Temos uma das últimas oportunidades para desviar a rota que nos carrega velozmente ao abismo e que já inaugurou o tempo das pandemias.
 p2QuemSomos: Achamos importante fazer um registro de nossa presença e de nossa imaginação. Isso ajudará a compreender quem somos e o que queremos. Permite também a criação de um documento vivo para as gerações futuras e uma fonte de pesquisas para compreender esse momento limite do planeta. Criamos abaixo um antiformulário, com perguntas que ajudam a compreender você melhor e, compreendendo você, podemos compreender melhor o mundo em que vivemos. Se você quiser compor este movimento conosco, pedimos que complete o antiformulário como desejar - todo ou apenas em parte.
-linkFormQuemSomos: [Link para formulário]
+linkFormQuemSomos: "[Link para formulário]"
 
 
 ---
