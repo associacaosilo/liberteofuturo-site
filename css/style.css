@@ -2632,6 +2632,10 @@ b, strong {
   .showcase_1 .title {
     font-size: 20px;
   }
+  .showcase_1 .ver {
+    margin-left: 60px;
+    margin-bottom: 20px;
+  }
   .link {
     padding-top: 5px;
     font-size: 10px;
