@@ -10739,7 +10739,7 @@ input[type=radio]:checked + label.radio.check_blue:before {
   left:0;
   right: 0;
   top: 100%;
-  margin-top: 50%;
+  margin-top: 10%;
   margin-left: -100%;
   margin-right: -100%;
   padding: 0px 20px;
