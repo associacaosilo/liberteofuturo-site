@@ -5,7 +5,7 @@ permalink: '/laboratorio.html'
 linkPT: laboratorio.html
 linkEN: laboratorio-en.html
 
-menu5propostas: 5 propostas para o fim do mundo
+menu5propostas: 5 propostas para adiar o fim do mundo
 menuMovimento: O movimento
 menuLaboratorio: Laboratório
 menuParticipe: Participe
