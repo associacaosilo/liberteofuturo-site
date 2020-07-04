@@ -157,7 +157,7 @@
                 
                 {% elsif page.logoArquivo == "democracia" %}
                 <div class="row bottom20">
-                    {% for democracia in site.data.democracia %}
+                    {% for democracia in site.data.democracia offset:2 %}
                     <div class="col-xs-3 col-lg-3">
                         <div class="block sides10">
                             <a href="https://youtu.be/{{democracia.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
@@ -171,7 +171,7 @@
                 
                 {% elsif page.logoArquivo == "consumo" %}
                 <div class="row bottom20">
-                    {% for consumo in site.data.consumo %}
+                    {% for consumo in site.data.consumo offset:2 %}
                     <div class="col-xs-3 col-lg-3">
                         <div class="block sides10">
                             <a href="https://youtu.be/{{consumo.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
@@ -185,7 +185,7 @@
                 
                 {% elsif page.logoArquivo == "clima" %}
                 <div class="row bottom20">
-                    {% for clima in site.data.clima %}
+                    {% for clima in site.data.clima offset:2 %}
                     <div class="col-xs-3 col-lg-3">
                         <div class="block sides10">
                             <a href="https://youtu.be/{{clima.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
@@ -199,7 +199,7 @@
                 
                 {% elsif page.logoArquivo == "insurreicao" %}
                 <div class="row bottom20">
-                    {% for insurreicao in site.data.insurreicao %}
+                    {% for insurreicao in site.data.insurreicao offset:2 %}
                     <div class="col-xs-3 col-lg-3">
                         <div class="block sides10">
                             <a href="https://youtu.be/{{insurreicao.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
