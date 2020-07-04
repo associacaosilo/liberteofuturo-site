@@ -9346,16 +9346,16 @@
       color: #e10000; }
 
 .orange {
-  color: #E06025; }
+  color: #E05E05; }
 
 .sand {
-  color: #F3EEDD; }
+  color: #F2EDDD; }
 
 .soft_green {
-  color: #958C6D; }
+  color: #958D6E; }
 
 .dark_green {
-  color: #605B47; 
+  color: #615C47; 
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s; }
@@ -9439,7 +9439,7 @@
       color: #95a5a6; }
 
 .black {
-  color: #050505; }
+  color: #000000; }
   .black.link {
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
@@ -9482,13 +9482,13 @@
   background: #eeeeee; }
 
 .bg_orange {
-  background: #E06025; }
+  background: #E05E05; }
 
 .bg_sand {
-  background: #F3EEDD; }
+  background: #F2EDDD; }
 
 .bg_soft_green {
-  background: #958C6D; }
+  background: #968D6E; }
 
 .bg_dark_green {
   background: #615c47; }
