@@ -34,7 +34,7 @@ categoria4Link: clima.html
 categoria5Link: insurreicao.html
 
 
-titulo: Clima
+titulo: Emergência Climática
 subtitulo: Sugira ações para impedir a destruição da natureza, garantindo a continuidade de todas as formas de vida no planeta. (ouse! e seja combatente.)
 logoArquivo: clima
 
