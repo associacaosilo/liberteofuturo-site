@@ -6,7 +6,7 @@ linkPT: movimento.html
 linkEN: movimento-en.html
 
 menu5propostas: 5 propostas para o fim do mundo
-menuMovimento: Movimento
+menuMovimento: O movimento
 menuLaboratorio: Laboratório
 menuParticipe: Participe
 
@@ -23,7 +23,7 @@ menuSubtitulo5: Defina a melhor ação de desobediência civil
 categoria1: Antídotos
 categoria2: Democracia
 categoria3: Consumo
-categoria4: Clima
+categoria4: Emergência Climática
 categoria5: Insurreição
 
 categoria1Link: antidotos.html
@@ -33,7 +33,7 @@ categoria4Link: clima.html
 categoria5Link: insurreicao.html
 
 
-titulo: Liberte o futuro
+titulo: Nosso movimento
 subtitulo: Nosso movimento
 
 p1Movimento: Muitos têm repetido que o mundo não será o mesmo após a pandemia provocada pelo novo coronavírus. Não será. Mas poderá ser ainda pior.
