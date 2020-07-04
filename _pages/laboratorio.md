@@ -6,7 +6,7 @@ linkPT: laboratorio.html
 linkEN: laboratorio-en.html
 
 menu5propostas: 5 propostas para o fim do mundo
-menuMovimento: Movimento
+menuMovimento: O movimento
 menuLaboratorio: Laboratório
 menuParticipe: Participe
 
@@ -23,7 +23,7 @@ menuSubtitulo5: Defina a melhor ação de desobediência civil
 categoria1: Antídotos
 categoria2: Democracia
 categoria3: Consumo
-categoria4: Clima
+categoria4: Emergência Climática
 categoria5: Insurreição
 
 categoria1Link: antidotos.html
