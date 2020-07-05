@@ -1,9 +1,9 @@
 ---
 layout: proposta
-permalink: '/democracia.html'
+permalink: '/antidotos.html'
 
-linkPT: democracia.html
-linkEN: democracia-en.html
+linkPT: antidotos.html
+linkEN: antidotos-en.html
 
 menu5propostas: 5 propostas para adiar o fim do mundo
 menuMovimento: O movimento
@@ -33,8 +33,8 @@ categoria4Link: clima.html
 categoria5Link: insurreicao.html
 
 
-titulo: Democracia
-subtitulo: Proponha políticas públicas, assim como mudanças nas leis e nas normas, para reduzir as desigualdades de raça, gênero e classe e para que a democracia seja mais do que votar a cada eleição. (ouse! e seja objetivo.)
-logoArquivo: democracia
+titulo: Antídotos
+subtitulo: 'contra o fim do mundo: imagine como quer viver. (ouse! sonhe, crie, extrapole a razão.)'
+logoArquivo: antidoto
 
 ---
