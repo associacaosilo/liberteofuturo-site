@@ -49,13 +49,13 @@ item3: Videos must last a maximum of 1 minute (to each answer, reflection);
 item4: Always start by saying who you are and where you are from (in every video you choose to record!);
 item5: Considering our propositions, there would be a total of 5 videos, but you don’t have to do all if you don’t feel comfortable - just do what you feel that makes sense and, most of all, talk about the propositions that really inspire you;
 item6: These are the 5 propositions you can use as a starting point, but be free! Use art, creativity and do it on your own way;
-item7: Videos should be posted on social media (Instagram, Twitter, Facebook, Tik Tok) with the hashtag #FreeTheFuture or sent via WhatsApp to the number +55 (11) 975579830;
+item7: "Videos should be posted on social media (Instagram, Twitter, Facebook, Tik Tok) with the hashtag <strong>#FreeTheFuture</strong> or sent via WhatsApp to the number <strong>+55 (11) 975579830;</strong>"
 item8: The material you produce belongs to no one in particular. It will be public and it is owned by all of us collectively. You can share, analyse and take action.
 
-frase1: against the end of the world, imagine how you want to live. (dare! dream, create, extrapolate reason.);
-frase2: propose public policies and legislative and normative changes that will reduce racial, gender, and class inequalities and take democracy beyond the mere act of voting every election. (Dare! And be objective.);
-frase3: suggest ways of eliminating the consumption habits that enslave our species and others as well. (Dare! And be specific.);
-frase4: suggest actions to stop the destruction of nature and guarantee the continuity of all forms of life on the planet. (Dare! And be a fighter.);
-frase5: define the best form of civil disobedience for creating the future in which you want to live! (Dare!).
+frase1: " against the end of the world: imagine how you want to live. (dare! dream, create, extrapolate reason.);"
+frase2: ": propose public policies and legislative and normative changes that will reduce racial, gender, and class inequalities and take democracy beyond the mere act of voting every election. (Dare! And be objective.);"
+frase3: ": suggest ways of eliminating the consumption habits that enslave our species and others as well. (Dare! And be specific.);"
+frase4: ": suggest actions to stop the destruction of nature and guarantee the continuity of all forms of life on the planet. (Dare! And be a fighter.);"
+frase5: ": define the best form of civil disobedience for creating the future in which you want to live! (Dare!)."
 
 ---
