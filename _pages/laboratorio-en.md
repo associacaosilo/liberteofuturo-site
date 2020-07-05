@@ -36,10 +36,10 @@ categoria5Link: insurreicao-en.html
 titulo: Free the future
 subtitulo: Five proposals for postponing the end of the world
 
-p1Lab: "The ‘Social Labs: Free the Future’ are made of collaborative journeys of online encounters among people who feature innovations to create futures, taking as a basis what we call ‘5 proposals for postponing the end of the world’. It is time to dive in deep, to plan actions for the future and make them happen right now. It’s a call to collective responsibility expressed by the equation of rebellion: me+1 (created by Élio Alves da Silva, fisher and poet from Xingu, indigenous Brazilian tribe)."
-p2Lab: "The Lab method #FreeTheFuture has as its objective, through the systemic comprehension of problems, stimulate new ideas, actions, prototypes and propositions that promote net culture, new incidencies in collective life and interactivist matters, allowing the expansion and the strengthening of ties, just as the creation of convergence strategies between people who patronise innovations."
-p3Lab: "The Lab #FreeTheFuture is a dialogical process of change involving people interested in building a bright future and/or promoting initiatives destined to approach problems by their origin, accelerate transformation, converge actions and contribute for the promotion of common good."
+p1Lab: 'The "Social Labs: Free the Future" are made of collaborative journeys of online encounters among people who feature innovations to create futures, taking as a basis what we call "5 proposals for postponing the end of the world". It is time to dive in deep, to plan actions for the future and make them happen right now. It’s a call to collective responsibility expressed by the equation of rebellion: me+1 (created by Élio Alves da Silva, fisher and poet from Xingu, indigenous Brazilian tribe).'
+p2Lab: 'The Lab method #FreeTheFuture has as its objective, through the systemic comprehension of problems, stimulate new ideas, actions, prototypes and propositions that promote net culture, new incidencies in collective life and interactivist matters, allowing the expansion and the strengthening of ties, just as the creation of convergence strategies between people who patronise innovations.'
+p3Lab: 'The Lab #FreeTheFuture is a dialogical process of change involving people interested in building a bright future and/or promoting initiatives destined to approach problems by their origin, accelerate transformation, converge actions and contribute for the promotion of common good.'
 p4Lab: There will be 12 virtual encounters (that will last two hours each) once a week, during three months, among encounters with guests, about co-creation and group orientation. The compromise is with the process, with experimentation and collaboration, but the key intention is to raise the interest of people and collectives to ideation and action. 
-p5Lab: "Inscreva-se aqui:"
-linkForm: "[link to the form]"
+p5Lab: 'Join '
+linkForm: "here!"
 ---
