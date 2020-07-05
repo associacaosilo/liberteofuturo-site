@@ -52,7 +52,7 @@ item6: Estas são as 5 provocações para você ter como ponto de partida, mas s
 item7: 'Os vídeos devem ser postados em redes sociais (Instagram, Twitter, Facebook, Tik Tok) com a hashtag <strong>#LiberteoFuturo</strong> ou enviados por Whatsapp para <strong>+55 (11) 975579830</strong>.'
 item8: O material produzido não pertence a ninguém em particular, será público e é de todas e todos nós coletivamente. Você pode divulgar, analisar e realizar ações.
 
-frase1: ': contra o fim do mundo: imagine como quer viver. (ouse! sonhe, crie, extrapole a razão.);'
+frase1: ' contra o fim do mundo: imagine como quer viver. (ouse! sonhe, crie, extrapole a razão.);'
 frase2: ': proponha políticas públicas, assim como mudanças nas leis e nas normas, para reduzir as desigualdades de raça, gênero e classe e para que a democracia seja mais do que votar a cada eleição. (ouse! e seja objetivo.);'
 frase3: ': indique alternativas para eliminar as práticas de consumo que escravizam a nossa e as outras espécies. (ouse! e seja específico.);'
 frase4: ': sugira ações para impedir a destruição da natureza, garantindo a continuidade de todas as formas de vida no planeta. (ouse! e seja combatente.);'
