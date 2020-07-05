@@ -34,7 +34,7 @@ categoria5Link: insurreicao.html
 
 
 titulo: Antídotos
-subtitulo: Contra o fim do mundo. imagine como quer viver. (ouse! sonhe, crie, extrapole a razão)
+subtitulo: 'contra o fim do mundo: imagine como quer viver. (ouse! sonhe, crie, extrapole a razão.)'
 logoArquivo: antidoto
 
 ---
