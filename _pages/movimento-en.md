@@ -53,11 +53,11 @@ p5FuncionaQuote: The future is here and now, there may not be next year
 p5Funciona: says Ailton Krenak.
 
 
-frase1: against the end of the world, imagine how you want to live. (dare! dream, create, extrapolate reason.);
-frase2: propose public policies and legislative and normative changes that will reduce racial, gender, and class inequalities and take democracy beyond the mere act of voting every election. (Dare! And be objective.);
-frase3: suggest ways of eliminating the consumption habits that enslave our species and others as well. (Dare! And be specific.);
-frase4: suggest actions to stop the destruction of nature and guarantee the continuity of all forms of life on the planet. (Dare! And be a fighter.);
-frase5: define the best form of civil disobedience for creating the future in which you want to live! (Dare!).
+frase1: ' against the end of the world: imagine how you want to live. (dare! dream, create, extrapolate reason.);'
+frase2: ': propose public policies and legislative and normative changes that will reduce racial, gender, and class inequalities and take democracy beyond the mere act of voting every election. (Dare! And be objective.);'
+frase3: ': suggest ways of eliminating the consumption habits that enslave our species and others as well. (Dare! And be specific.);'
+frase4: ': suggest actions to stop the destruction of nature and guarantee the continuity of all forms of life on the planet. (Dare! And be a fighter.);'
+frase5: ': define the best form of civil disobedience for creating the future in which you want to live! (Dare!).'
 
 tituloQuemSomos: Who we are
 subtituloQuemSomos: Everyone who makes this movement happen
