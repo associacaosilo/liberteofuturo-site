@@ -14,11 +14,11 @@ menuMovimentoLink: movimento.html
 menuLaboratorioLink: laboratorio.html
 menuParticipeLink: participe.html 
 
-menuSubtitulo1: Imagine como quer viver
-menuSubtitulo2: Para que seja mais do que votar a cada eleição
-menuSubtitulo3: Para eliminar as práticas de consumo
-menuSubtitulo4: Para garantir a continuidade da vida
-menuSubtitulo5: Defina a melhor ação de desobediência civil
+menuSubtitulo1: 'contra o fim do mundo: imagine como quer viver. (ouse! sonhe, crie, extrapole a razão.)'
+menuSubtitulo2: proponha políticas públicas, assim como mudanças nas leis e nas normas, para reduzir as desigualdades de raça, gênero e classe e para que a democracia seja mais do que votar a cada eleição. (ouse! e seja objetivo.)
+menuSubtitulo3: indique alternativas para eliminar as práticas de consumo que escravizam a nossa e as outras espécies. (ouse! e seja específico.)
+menuSubtitulo4: sugira ações para impedir a destruição da natureza, garantindo a continuidade de todas as formas de vida no planeta. (ouse! e seja combatente.)
+menuSubtitulo5: defina a melhor ação de desobediência civil para criar o futuro onde você quer viver. (ouse!)
 
 categoria1: Antídotos
 categoria2: Democracia
