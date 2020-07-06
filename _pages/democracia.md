@@ -1,9 +1,9 @@
 ---
 layout: proposta
-permalink: '/antidotos.html'
+permalink: '/democracia.html'
 
-linkPT: antidotos.html
-linkEN: antidotos-en.html
+linkPT: democracia.html
+linkEN: democracia-en.html
 
 menu5propostas: 5 propostas para adiar o fim do mundo
 menuMovimento: O movimento
