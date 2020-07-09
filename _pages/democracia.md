@@ -33,8 +33,8 @@ categoria4Link: clima.html
 categoria5Link: insurreicao.html
 
 
-titulo: Antídotos
-subtitulo: 'contra o fim do mundo: imagine como quer viver. (ouse! sonhe, crie, extrapole a razão.)'
-logoArquivo: antidoto
+titulo: Democracia
+subtitulo: Proponha políticas públicas, assim como mudanças nas leis e nas normas, para reduzir as desigualdades de raça, gênero e classe e para que a democracia seja mais do que votar a cada eleição. (ouse! e seja objetivo.)
+logoArquivo: democracia
 
 ---
