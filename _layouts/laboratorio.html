@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+    </head> 
+    <body>
+
+        {% include navMobile.html %}
+
+        <header class="padding_top200 padding_bottom150 bg_dark_green parallax-image" style="height: 100%">
+
+            {% include headerMenu.html %}
+
+            <div class="container nopadding">
+                <div class="col-xl-12 col-lg-12 padding_bottom50 sand font_second bold font40 uppercase">
+                    {{page.titulo}}
+                    <p class="font14 light soft_green">{{page.subtitulo}}</p>
+                </div>
+                <div class="col-xl-12 col-lg-12 padding_bottom80">
+                    <img src="i/headers/HOME_DESTAQUE_4.jpg" class="width_full">
+                </div>
+                <div class="col-xl-12 col-lg-12 white font_second font20">
+                    <p class="top20 bottom30">{{page.p1Lab}}</p>
+                    <p class="top20 bottom30">{{page.p2Lab}}</p>
+                    <p class="top20 bottom30">{{page.p3Lab}}</p>
+                    <p class="top20 bottom30">{{page.p4Lab}}</p>
+                    <p class="top20 bottom30">{{page.p5Lab}} <a href="https://docs.google.com/forms/d/e/1FAIpQLSc74-rSYZuEfts-7xkj_oh5AFmdY-WUJWkTIgQicyo5w7vhGA/viewform" target="_blank" class="link soft_green">{{page.linkForm}}</a></p>
+                </div>
+            </div>		
+        </header>
+
+
+        <footer class="footer_11 bg_dark padding_top25 padding_bottom20">
+            {% include footer.html %}
+        </footer>
+        
+        <!-- popup with video -->
+        <div class="overlay"></div>
+
+        <div class="video_popup">
+            <a class="close">
+                <img srcset="i/close_white.png 1x, i/close_white_2x.png 2x" src="i/close_white.png" alt="" />
+            </a>
+            <div class="flex align_center justify_center width_full height_full iframe_container"></div>
+        </div>
+
+        {% include scripts.html %}
+    </body>
+</html>

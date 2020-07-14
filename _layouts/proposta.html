@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+    </head> 
+    <body>
+
+        {% include navMobile.html %}
+
+
+        <header class="padding_top200 padding_bottom80 bg_dark_green header_3">
+            {% include headerMenu.html %}
+
+
+            <div class="container nopadding">
+                <div class="row justify-content-left">
+                    <div class="left15">
+                        <img src="i/logos/{{page.logoArquivo}}.svg" class="width80">
+                    </div>
+                    {% if page.logoArquivo == "antidoto" %}
+                    <div class="top20 left20 right10 font42 uppercase bold font_second dark_gray title">
+                        01
+                    </div>
+                    {% elsif page.logoArquivo == "democracia" %}
+                    <div class="top20 left20 right10 font42 uppercase bold font_second dark_gray title">
+                        02
+                    </div>
+                    {% elsif page.logoArquivo == "consumo" %}
+                    <div class="top20 left20 right10 font42 uppercase bold font_second dark_gray title">
+                        03
+                    </div>
+                    {% elsif page.logoArquivo == "clima" %}
+                    <div class="top20 left20 right10 font42 uppercase bold font_second dark_gray title">
+                        04
+                    </div>
+                    {% elsif page.logoArquivo == "insurreicao" %}
+                    <div class="top20 left20 right10 font42 uppercase bold font_second dark_gray title">
+                        05
+                    </div>
+                    {% endif %}
+                    <div class="top20 font42 uppercase bold font_second dark title">
+                        {{page.titulo}}
+                    </div>
+                </div>
+                <div class="left100 right60 font14 medium soft_green text_left">
+                    {{page.subtitulo}}
+                </div>	
+            </div>
+            
+            {% if page.logoArquivo == "antidoto" %}
+            <div class="container nopadding text-left">
+                <div class="container nopadding">
+                    <div class="row justify-content-center">
+                        {% for antidoto in site.data.antidoto limit:2 %}
+                        <div class="col-xs-6 col-lg-6 padding_top40">
+                            <div class="block sides10">
+                                <a href="https://youtu.be/{{antidoto.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
+                                    <img src="https://img.youtube.com/vi/{{antidoto.identificador}}/mqdefault.jpg" class="width_full" alt="" />
+                                </a>
+                            </div>
+                            <div class="top10 left10 font16 extrabold font_second link soft_green title">{{antidoto.autor}}</div>
+                        </div>
+                        {% endfor %}
+                    </div>		
+                </div>
+            </div>
+            
+            {% elsif page.logoArquivo == "democracia" %}
+            <div class="container nopadding text-left">
+                <div class="container nopadding">
+                    <div class="row justify-content-center">
+                        {% for democracia in site.data.democracia limit:2 %}
+                        <div class="col-xs-6 col-lg-6 padding_top40">
+                            <div class="block sides10">
+                                <a href="https://youtu.be/{{democracia.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
+                                    <img src="https://img.youtube.com/vi/{{democracia.identificador}}/mqdefault.jpg" class="width_full" alt="" />
+                                </a>
+                            </div>
+                            <div class="top10 left10 font16 extrabold font_second link soft_green title">{{democracia.autor}}</div>
+                        </div>
+                        {% endfor %}
+                    </div>		
+                </div>
+            </div>
+            
+            {% elsif page.logoArquivo == "consumo" %}
+            <div class="container nopadding text-left">
+                <div class="container nopadding">
+                    <div class="row justify-content-center">
+                        {% for consumo in site.data.consumo limit:2 %}
+                        <div class="col-xs-6 col-lg-6 padding_top40">
+                            <div class="block sides10">
+                                <a href="https://youtu.be/{{consumo.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
+                                    <img src="https://img.youtube.com/vi/{{consumo.identificador}}/mqdefault.jpg" class="width_full" alt="" />
+                                </a>
+                            </div>
+                            <div class="top10 left10 font16 extrabold font_second link soft_green title">{{consumo.autor}}</div>
+                        </div>
+                        {% endfor %}
+                    </div>		
+                </div>
+            </div>
+            
+            {% elsif page.logoArquivo == "clima" %}
+            <div class="container nopadding text-left">
+                <div class="container nopadding">
+                    <div class="row justify-content-center">
+                        {% for clima in site.data.clima limit:2 %}
+                        <div class="col-xs-6 col-lg-6 padding_top40">
+                            <div class="block sides10">
+                                <a href="https://youtu.be/{{clima.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
+                                    <img src="https://img.youtube.com/vi/{{clima.identificador}}/mqdefault.jpg" class="width_full" alt="" />
+                                </a>
+                            </div>
+                            <div class="top10 left10 font16 extrabold font_second link soft_green title">{{clima.autor}}</div>
+                        </div>
+                        {% endfor %}
+                    </div>		
+                </div>
+            </div>
+            
+            {% elsif page.logoArquivo == "insurreicao" %}
+            <div class="container nopadding text-left">
+                <div class="container nopadding">
+                    <div class="row justify-content-center">
+                        {% for insurreicao in site.data.insurreicao limit:2 %}
+                        <div class="col-xs-6 col-lg-6 padding_top40">
+                            <div class="block sides10">
+                                <a href="https://youtu.be/{{insurreicao.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
+                                    <img src="https://img.youtube.com/vi/{{insurreicao.identificador}}/mqdefault.jpg" class="width_full" alt="" />
+                                </a>
+                            </div>
+                            <div class="top10 left10 font16 extrabold font_second link soft_green title">{{insurreicao.autor}}</div>
+                        </div>
+                        {% endfor %}
+                    </div>		
+                </div>
+            </div>
+            {% endif %}
+        </header>
+
+        <section id="democracia" class="bg_dark_green padding_bottom40">
+            <div class="container nopadding">
+                {% if page.logoArquivo == "antidoto" %}
+                <div class="row bottom20">
+                    {% for antidoto in site.data.antidoto offset:2 %}
+                    <div class="col-xs-3 col-lg-3">
+                        <div class="block sides10">
+                            <a href="https://youtu.be/{{antidoto.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
+                                <img src="https://img.youtube.com/vi/{{antidoto.identificador}}/mqdefault.jpg" class="width_full" alt="" />
+                            </a>
+                        </div>
+                        <p class="left10 font12 bold font_second link soft_green title">{{antidoto.autor}}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+                
+                {% elsif page.logoArquivo == "democracia" %}
+                <div class="row bottom20">
+                    {% for democracia in site.data.democracia offset:2 %}
+                    <div class="col-xs-3 col-lg-3">
+                        <div class="block sides10">
+                            <a href="https://youtu.be/{{democracia.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
+                                <img src="https://img.youtube.com/vi/{{democracia.identificador}}/mqdefault.jpg" class="width_full" alt="" />
+                            </a>
+                        </div>
+                        <p class="left10 font12 bold font_second link soft_green title">{{democracia.autor}}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+                
+                {% elsif page.logoArquivo == "consumo" %}
+                <div class="row bottom20">
+                    {% for consumo in site.data.consumo offset:2 %}
+                    <div class="col-xs-3 col-lg-3">
+                        <div class="block sides10">
+                            <a href="https://youtu.be/{{consumo.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
+                                <img src="https://img.youtube.com/vi/{{consumo.identificador}}/mqdefault.jpg" class="width_full" alt="" />
+                            </a>
+                        </div>
+                        <p class="left10 font12 bold font_second link soft_green title">{{consumo.autor}}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+                
+                {% elsif page.logoArquivo == "clima" %}
+                <div class="row bottom20">
+                    {% for clima in site.data.clima offset:2 %}
+                    <div class="col-xs-3 col-lg-3">
+                        <div class="block sides10">
+                            <a href="https://youtu.be/{{clima.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
+                                <img src="https://img.youtube.com/vi/{{clima.identificador}}/mqdefault.jpg" class="width_full" alt="" />
+                            </a>
+                        </div>
+                        <p class="left10 font12 bold font_second link soft_green title">{{clima.autor}}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+                
+                {% elsif page.logoArquivo == "insurreicao" %}
+                <div class="row bottom20">
+                    {% for insurreicao in site.data.insurreicao offset:2 %}
+                    <div class="col-xs-3 col-lg-3">
+                        <div class="block sides10">
+                            <a href="https://youtu.be/{{insurreicao.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
+                                <img src="https://img.youtube.com/vi/{{insurreicao.identificador}}/mqdefault.jpg" class="width_full" alt="" />
+                            </a>
+                        </div>
+                        <p class="left10 font12 bold font_second link soft_green title">{{insurreicao.autor}}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </section>
+
+
+
+        <footer class="footer_11 bg_dark padding_top25 padding_bottom20">
+            {% include footer.html %}
+        </footer>
+        
+        <!-- popup with video -->
+        <div class="overlay"></div>
+
+        <div class="video_popup">
+            <a class="close">
+                <img srcset="i/close_white.png 1x, i/close_white_2x.png 2x" src="i/close_white.png" alt="" />
+            </a>
+            <div class="flex align_center justify_center width_full height_full iframe_container"></div>
+        </div>
+
+        {% include scripts.html %}
+        
+    </body>
+</html>

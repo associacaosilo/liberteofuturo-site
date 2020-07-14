@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+    </head> 
+    <body>
+
+        {% include navMobile.html %}
+
+
+        <header class="padding_top500 padding_bottom20 bg_dark_gray header_2">
+            {% include headerMenu.html %}
+            <div class="text_center">
+                <img src="i/logos/logo_vertical.svg" class="max_width500">
+            </div>
+
+        </header>
+
+
+        <section id="antidotos" class="showcase_1 bg_dark_green padding_top105">
+            <div class="container nopadding text-left">
+                <div class="row justify-content-left">
+                    <div class="left15">
+                        <img src="i/logos/antidoto.svg" class="width40">
+                    </div>
+                    <div class="left20 right10 font32 uppercase bold font_second dark_gray title">
+                        01
+                    </div>
+                    <div class="font32 uppercase bold font_second title">
+                        {{page.categoria1}}
+                    </div>
+                    <div class="col-sm-12 col-lg-1 ver left20 right20 font12 bold font_first underline link">
+                        {% if page.url contains '-en' %}
+                        <a class="sand" href="antidotos-en.html">{{page.ver}}</a>
+                        {% else %}
+                        <a class="sand" href="antidotos.html">{{page.ver}}</a>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="padding_left60 padding_right60 font14 light soft_green medium">
+                    {{page.subtitulo1}}
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="MultiCarousel" data-items="1,2,4,5" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                            <div class="MultiCarousel-inner">
+                                {% for antidoto in site.data.antidoto %}
+                                <div class="item">
+                                    <div class="margin_auto bottom60 max_width370 block sides10">
+                                        <a href="https://youtu.be/{{antidoto.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
+                                            <img src="https://img.youtube.com/vi/{{antidoto.identificador}}/mqdefault.jpg" class="width_full" alt="" />
+                                        </a>
+                                    </div>
+                                    <p class="left10 font12 medium font_second link soft_green title">{{antidoto.autor}}</p>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <button class="btn orange leftLst"><img src="i/slick-arrow-left.svg"/></button>
+                            <button class="btn orange rightLst"><img src="i/slick-arrow-right.svg"/></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="democracia" class="showcase_1 bg_dark_green padding_top105">
+            <div class="container nopadding text-left">
+                <div class="row justify-content-left">
+                    <div class="left15">
+                        <img src="i/logos/democracia.svg" class="width40">
+                    </div>
+                    <div class="left20 right10 font32 uppercase bold font_second dark_gray title">
+                        02
+                    </div>
+                    <div class="font32 uppercase bold font_second title">
+                        {{page.categoria2}}
+                    </div>
+                    <div class="col-sm-12 col-lg-1 ver left20 right20 font12 bold font_first underline sand link">
+                        {% if page.url contains '-en' %}
+                        <a class="sand" href="democracia-en.html">{{page.ver}}</a>
+                        {% else %}
+                        <a class="sand" href="democracia.html">{{page.ver}}</a>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="padding_left60 padding_right60 font14 light soft_green medium">
+                    {{page.subtitulo2}}
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="MultiCarousel" data-items="1,2,4,5" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                        <div class="MultiCarousel-inner">
+                            {% for democracia in site.data.democracia %}
+                            <div class="item">
+                                <div class="margin_auto bottom60 max_width370 block sides10">
+                                    <a href="https://youtu.be/{{democracia.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
+                                        <img src="https://img.youtube.com/vi/{{democracia.identificador}}/mqdefault.jpg" class="width_full" alt="" />
+                                    </a>
+                                </div>
+                                <p class="left10 font12 medium font_second link soft_green title">{{democracia.autor}}</p>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <button class="btn orange leftLst"><img src="i/slick-arrow-left.svg"/></button>
+                        <button class="btn orange rightLst"><img src="i/slick-arrow-right.svg"/></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="consumo" class="showcase_1 bg_dark_green padding_top105">
+            <div class="container nopadding text-left">
+                <div class="row justify-content-left">
+                    <div class="left15">
+                        <img src="i/logos/consumo.svg" class="width40">
+                    </div>
+                    <div class="left20 right10 font32 uppercase bold font_second dark_gray title">
+                        03
+                    </div>
+                    <div class="font32 uppercase bold font_second title">
+                        {{page.categoria3}}
+                    </div>
+                    <div class="col-sm-12 col-lg-1 ver left20 right20 font12 bold font_first underline sand link">
+                        {% if page.url contains '-en' %}
+                        <a class="sand" href="consumo-en.html">{{page.ver}}</a>
+                        {% else %}
+                        <a class="sand" href="consumo.html">{{page.ver}}</a>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="padding_left60 padding_right60 font14 light soft_green medium">
+                    {{page.subtitulo3}}
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="MultiCarousel" data-items="1,2,4,5" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                            <div class="MultiCarousel-inner">
+                                {% for consumo in site.data.consumo %}
+                                <div class="item">
+                                    <div class="margin_auto bottom60 max_width370 block sides10">
+                                        <a href="https://youtu.be/{{consumo.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
+                                            <img src="https://img.youtube.com/vi/{{consumo.identificador}}/mqdefault.jpg" class="width_full" alt="" />
+                                        </a>
+                                    </div>
+                                    <p class="left10 font12 medium font_second link soft_green title">{{consumo.autor}}</p>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <button class="btn orange leftLst"><img src="i/slick-arrow-left.svg"/></button>
+                            <button class="btn orange rightLst"><img src="i/slick-arrow-right.svg"/></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="clima" class="showcase_1 bg_dark_green padding_top105">
+            <div class="container nopadding text-left">
+                <div class="row justify-content-left">
+                    <div class="left15">
+                        <img src="i/logos/clima.svg" class="width40">
+                    </div>
+                    <div class="left20 right10 font32 uppercase bold font_second dark_gray title">
+                        04
+                    </div>
+                    <div class="font32 uppercase bold font_second title">
+                        {{page.categoria4}}
+                    </div>
+                    <div class="col-sm-12 col-lg-1 ver left20 right20 font12 bold font_first underline sand link">
+                        {% if page.url contains '-en' %}
+                        <a class="sand" href="clima-en.html">{{page.ver}}</a>
+                        {% else %}
+                        <a class="sand" href="clima.html">{{page.ver}}</a>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="padding_left60 padding_right60 font14 light soft_green medium">
+                    {{page.subtitulo4}}
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="MultiCarousel" data-items="1,2,4,5" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                            <div class="MultiCarousel-inner">
+                                {% for clima in site.data.clima %}
+                                <div class="item">
+                                    <div class="margin_auto bottom60 max_width370 block sides10">
+                                        <a href="https://youtu.be/{{clima.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
+                                            <img src="https://img.youtube.com/vi/{{clima.identificador}}/mqdefault.jpg" class="width_full" alt="" />
+                                        </a>
+                                    </div>
+                                    <p class="left10 font12 medium font_second link soft_green title">{{clima.autor}}</p>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <button class="btn orange leftLst"><img src="i/slick-arrow-left.svg"/></button>
+                            <button class="btn orange rightLst"><img src="i/slick-arrow-right.svg"/></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="insurreicao" class="showcase_1 bg_dark_green padding_top105 padding_bottom80">
+            <div class="container nopadding text-left">
+                <div class="row justify-content-left">
+                    <div class="left15">
+                        <img src="i/logos/insurreicao.svg" class="width40">
+                    </div>
+                    <div class="left20 right10 font32 uppercase bold font_second dark_gray title">
+                        05
+                    </div>
+                    <div class="font32 uppercase bold font_second title">
+                        {{page.categoria5}}
+                    </div>
+                    <div class="col-sm-12 col-lg-1 ver left20 right20 font12 bold font_first underline sand link">
+                        {% if page.url contains '-en' %}
+                        <a class="sand" href="insurreicao-en.html">{{page.ver}}</a>
+                        {% else %}
+                        <a class="sand" href="insurreicao.html">{{page.ver}}</a>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="padding_left60 padding_right60 font14 light soft_green medium">
+                    {{page.subtitulo5}}
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="MultiCarousel" data-items="1,2,4,5" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                            <div class="MultiCarousel-inner">
+                                {% for insurreicao in site.data.insurreicao %}
+                                <div class="item">
+                                    <div class="margin_auto bottom60 max_width370 block sides10">
+                                        <a href="https://youtu.be/{{insurreicao.identificador}}?rel=0&showinfo=0" target="_blank" data-fancybox="fancybox" class="margin_top35 margin_bottom40 relative play red">
+                                            <img src="https://img.youtube.com/vi/{{insurreicao.identificador}}/mqdefault.jpg" class="width_full" alt="" />
+                                        </a>
+                                    </div>
+                                    <p class="left10 font12 medium font_second link soft_green title">{{insurreicao.autor}}</p>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <button class="btn orange leftLst"><img src="i/slick-arrow-left.svg"/></button>
+                            <button class="btn orange rightLst"><img src="i/slick-arrow-right.svg"/></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer_11 bg_dark padding_top25 padding_bottom20">
+            {% include footer.html %}
+        </footer>
+
+        <!-- popup with video -->
+        <div class="overlay"></div>
+
+        <div class="video_popup">
+            <a class="close">
+                <img srcset="i/close_white.png 1x, i/close_white_2x.png 2x" src="i/close_white.png" alt="" />
+            </a>
+            <div class="flex align_center justify_center width_full height_full iframe_container"></div>
+        </div>
+
+        {% include scripts.html %}
+
+    </body>
+</html>
