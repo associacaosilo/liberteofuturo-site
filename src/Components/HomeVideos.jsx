@@ -103,21 +103,25 @@ class HomeVideos extends Component {
 
                     <Slider {...settings}>
                       {category.videos.map((video) => {
-                        return (
-                          <div
-                            className="homevideos_videothumb"
-                            key={`${category.slug}${video.identificador}`}
-                            onClick={() =>
-                              this._openLightbox(video.identificador, index)
-                            }
-                          >
-                            <img
-                              src={`https://img.youtube.com/vi/${video.identificador}/mqdefault.jpg`}
-                              alt=""
-                            />{' '}
-                            {video.autor}
-                          </div>
-                        );
+                        if (video.identificador) {
+                          return (
+                            <div
+                              className="homevideos_videothumb"
+                              key={`${category.slug}${video.identificador}`}
+                              onClick={() =>
+                                this._openLightbox(video.identificador, index)
+                              }
+                            >
+                              <img
+                                src={`https://img.youtube.com/vi/${video.identificador}/mqdefault.jpg`}
+                                alt=""
+                              />{' '}
+                              {video.autor}
+                            </div>
+                          );
+                        } else {
+                          return null;
+                        }
                       })}
                     </Slider>
                   </section>
