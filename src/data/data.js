@@ -11,7 +11,7 @@ const data = {
           'Contra o fim do mundo: imagine como quer viver. (Ouse! Sonhe, crie, extrapole a razão.)',
       },
       en: {
-        titulo: 'Antidotes',
+        titulo: 'Antidotes against the end of the world',
         subtitulo: 'Imagine how you want to live',
         descricao:
           'Against the end of the world. Imagine how you want to live. (Dare! Dream, create, defy your own imagination.)',
@@ -173,7 +173,7 @@ const data = {
               Propostas para Adiar o Fim do Mundo". É o momento de
               aprofundamento, de planejar ações para o futuro e executá-las no
               presente. É uma invocação da responsabilidade coletiva expressada
-              pela equação da rebelião: Eu+1+ (criação do pescador e poeta do
+              pela equação da rebelião: eu+1+ (criação do pescador e poeta do
               Xingu Élio Alves da Silva).
             </p>
             <p>
@@ -228,8 +228,8 @@ const data = {
               postponing the end of the world". It is time to dive in deep, to
               plan actions for the future and make them happen right now. It’s a
               call to collective responsibility expressed by the equation of
-              rebellion: me+1 (created by Élio Alves da Silva, fisher and poet
-              from Xingu, indigenous Brazilian tribe).
+              rebellion: me+1+ (created by Élio Alves da Silva, fisher and poet
+              from Xingu, in the Amazon forest).
             </p>
             <p>
               The Lab method #FreeTheFuture has as its objective, through the
@@ -336,8 +336,8 @@ const data = {
               pior.
             </p>
             <p>
-              Hoje, apenas 2.153 bilionários concentram mais riqueza material do
-              que 60% dos outros 7.790.000.000 de seres humanos que habitam o
+              Hoje, apenas 2.153 pessoas concentram mais riqueza material do que
+              60% dos outros 7.790.000.000 de seres humanos que habitam o
               planeta. Esses bilionários representam uma fração tão
               insignificante no conjunto da população global que os números
               falham em torná-los visíveis como porcentagem. A desigualdade
@@ -363,10 +363,10 @@ const data = {
               num planeta devorado pelo capitalismo e pela crise climática
               causada por um modo de produção incompatível com a vida. A
               destruição da natureza, da qual a maioria dos humanos tragicamente
-              se descolou, provocará cada vez mais pandemias e está levando o
-              planeta ao superaquecimento. Lançamos esse movimento porque não
-              queremos ser abatidos como gado. Seja no campo ou na cidade,
-              queremos viver como floresta – em pé – e lutar.
+              se descolou, provocará cada vez mais pandemias e está levando a
+              única casa que temos ao superaquecimento. Lançamos esse movimento
+              porque não queremos ser abatidos como gado. Seja no campo ou na
+              cidade, queremos viver como floresta. Em pé – e lutar.
             </p>
             <h3>Como funciona</h3>
             <p>
@@ -411,15 +411,14 @@ const data = {
               Whatsapp +55 (11) 975579830. Estes vídeos serão reunidos nesta
               plataforma digital aberta. O material produzido não pertence a
               ninguém em particular, é de todos nós coletivamente. Você pode
-              divulgar, analisar e realizar ações.
+              pesquisar, divulgar e agir.
             </p>
             <p>
               Sabemos que pensar sobre o que queremos e expor nossos pensamentos
-              para o mundo pode ser difícil. É mesmo difícil tentar mudar o
-              mundo. Quando você começar, vai perceber que o gesto de imaginar -
-              sozinho ou com seu grupo de amigos, comunidade, coletivo,
-              organização ou empresa - já está mudando você. A imaginação é uma
-              força poderosa.
+              pode ser difícil. É mesmo difícil tentar mudar o mundo. Quando
+              você começar, vai perceber que o gesto de imaginar - sozinho ou
+              com seu grupo de amigos, comunidade, coletivo, organização ou
+              empresa - já está mudando você. A imaginação é uma força poderosa.
             </p>
             <p>
               Se não quiser partir dos temas propostos, apenas responda a uma
@@ -437,8 +436,8 @@ const data = {
             />
             <h3>Quem somos</h3>
             <p>
-              Somos os 99,99%. Somos um movimento pela libertação do futuro. E
-              em movimento crescemos a cada dia. Não há autoria, não há captura.
+              Somos eu+1+. Somos um movimento pela libertação do futuro. E em
+              movimento crescemos a cada dia. Não há autoria, não há captura.
               Convidamos cada um a contribuir com uma reflexão crítica e
               dinâmica sobre o momento pós-pandemia e sobre outros mundos
               possíveis. Nessa rede nós somos rio e rua, imaginação e realidade,
@@ -481,12 +480,12 @@ const data = {
               worse.
             </p>
             <p>
-              Today, more material wealth lies in the hands of only 2,153
-              billionaires than in the hands of 60% of the planet’s other
-              7,790,000,000 human inhabitants. These billionaires represent such
-              an insignificant fraction of the global population that they
-              become invisible when their number is expressed in a percentage.
-              Yet the inequality they produce is brutally visible.
+              Today, more material wealth lies in the hands of only 2,153 people
+              than in the hands of 60% of the planet’s other 7,790,000,000 human
+              inhabitants. These billionaires represent such an insignificant
+              fraction of the global population that they become invisible when
+              their number is expressed in a percentage. Yet the inequality they
+              produce is brutally visible.
             </p>
             <p>We want a world for the 99.99%.</p>
             <p>
@@ -515,14 +514,12 @@ const data = {
             </p>
             <h3>How it works</h3>
             <p>
-              Inspired by the thinkers Ailton Krenak, Achille Mbembe, Bruno
-              Latour, Eliane Brum, Grada Kilomba, and Paul Preciado, we invite
-              you to come up with five proposals for postponing the end of the
-              world and imagining possibilities for our post-pandemic future. We
-              believe questions are as important as answers. To help with this
-              exercise of the imagination, we are offering five suggestions of
-              our own. These are meant to prompt you to devise your own
-              questions and then reply to them.
+              We invite you to come up with five proposals for postponing the
+              end of the world and imagining possibilities for our post-pandemic
+              future. We believe questions are as important as answers. To help
+              with this exercise of the imagination, we are offering five
+              suggestions of our own. These are meant to prompt you to devise
+              your own questions and then reply to them.
             </p>
             <ol>
               <li>
@@ -571,7 +568,7 @@ const data = {
               mean giving up on the present.
             </p>
             <p>
-              "The future is here and now, there may not be next year" , says
+              “The future is here and now; it might not be here next year,” says
               Ailton Krenak.
             </p>
             <img
@@ -580,7 +577,7 @@ const data = {
             />
             <h3>Who we are</h3>
             <p>
-              We are the 99.99%. We are a movement to free the future. And in
+              We are me+1+. We are a movement to free the future. And in
               movement we grow every day. There is no authorship, there is no
               one capturing anything. We invite everyone to contribute with a
               critical, dynamic reflection on the post-pandemic moment and
@@ -783,15 +780,13 @@ const data = {
                 redes;
               </li>
               <li>
-                Gravar o vídeo e divulgá-lo nas suas redes com as
-                #LiberteoFuturo #FreeTheFuture;
+                Grave o vídeo e divulgue-o nas suas redes com as #LiberteoFuturo
+                #FreeTheFuture;
               </li>
+              <li>Grave o vídeo, divulgue-o e planeje ações para o futuro;</li>
               <li>
-                Gravar o vídeo, divulgá-lo e planejar ações para o futuro;
-              </li>
-              <li>
-                Gravar o vídeo, divulgá-lo, planejar ações para o futuro e
-                executá-las no presente.
+                Grave o vídeo e divulgue-o, planeje ações para o futuro e
+                execute-as no presente.
               </li>
             </ol>
             <h3>Como gravar seu vídeo</h3>
@@ -810,12 +805,12 @@ const data = {
               </li>
               <li>
                 São 5 vídeos no total, portanto, mas vc não precisa fazer todos
-                se não se sentir confortável - faça apenas daquilo que fizer
+                se não se sentir confortável - faça apenas aquilo que fizer
                 sentido e te inspirar;
               </li>
               <li>
-                Estas são as 5 provocações para você ter como ponto de partida,
-                mas seja livre! Use a arte e a criatividade, faça do seu jeito.
+                Estas 5 provocações são pontos de partida, mas seja livre! Use a
+                arte e a criatividade, faça do seu jeito.
                 <ol>
                   <li>
                     Antídotos contra o fim do mundo: imagine como quer viver.
@@ -928,7 +923,7 @@ const data = {
                   </li>
                   <li>
                     Insurrection: define the best form of civil disobedience for
-                    creating the future in which you want to live! (Dare!).
+                    creating the future in which you want to live. (Dare!).
                   </li>
                 </ol>
               </li>
