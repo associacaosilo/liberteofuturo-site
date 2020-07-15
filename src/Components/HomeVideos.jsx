@@ -7,6 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import { Link } from 'react-router-dom';
 import VideoLightbox from './VideoLightbox';
 import catImages from '../data/categoryimages';
+import loading from '../assets/loading.svg';
 
 class HomeVideos extends Component {
   state = {
@@ -100,30 +101,35 @@ class HomeVideos extends Component {
                       </h2>
                     </Link>
                     <p>{category[lang].descricao}</p>
-
-                    <Slider {...settings}>
-                      {category.videos.map((video) => {
-                        if (video.identificador) {
-                          return (
-                            <div
-                              className="homevideos_videothumb"
-                              key={`${category.slug}${video.identificador}`}
-                              onClick={() =>
-                                this._openLightbox(video.identificador, index)
-                              }
-                            >
-                              <img
-                                src={`https://img.youtube.com/vi/${video.identificador}/mqdefault.jpg`}
-                                alt=""
-                              />{' '}
-                              {video.autor}
-                            </div>
-                          );
-                        } else {
-                          return null;
-                        }
-                      })}
-                    </Slider>
+                    {category.videos.length ? (
+                      <Slider {...settings}>
+                        {category.videos.map((video) => {
+                          if (video.identificador) {
+                            return (
+                              <div
+                                className="homevideos_videothumb"
+                                key={`${category.slug}${video.identificador}`}
+                                onClick={() =>
+                                  this._openLightbox(video.identificador, index)
+                                }
+                              >
+                                <img
+                                  src={`https://img.youtube.com/vi/${video.identificador}/mqdefault.jpg`}
+                                  alt=""
+                                />{' '}
+                                {video.autor}
+                              </div>
+                            );
+                          } else {
+                            return null;
+                          }
+                        })}
+                      </Slider>
+                    ) : (
+                      <div className="text-center">
+                        <img src={loading}></img>
+                      </div>
+                    )}
                   </section>
                 </Col>
               </Row>

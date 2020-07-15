@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import _ from 'lodash';
 import VideoLightbox from '../Components/VideoLightbox';
 import PageHero from '../Components/PageHero';
+import loading from '../assets/loading.svg';
 
 class Category extends Component {
   state = {
@@ -65,38 +66,50 @@ class Category extends Component {
         />
 
         <div className="categorypage_videos">
-          <Container>
-            <Row>
-              {data.categories[slug].videos.map((video, index) => {
-                var colProps = {
-                  xs: 12,
-                  sm: 6,
-                  xl: 3,
-                };
-                if (index < 2) {
-                  colProps = {
+          {data.categories[slug].videos.length ? (
+            <Container>
+              <Row>
+                {data.categories[slug].videos.map((video, index) => {
+                  var colProps = {
                     xs: 12,
-                    sm: 12,
-                    md: 6,
+                    sm: 6,
+                    xl: 3,
                   };
-                }
-                return (
-                  <Col {...colProps}>
-                    <div className="categorypage_videos-box">
-                      <img
-                        src={`https://i.ytimg.com/vi/${video.identificador}/mqdefault.jpg`}
-                        alt=""
-                        onClick={() =>
-                          this._openLightbox(video.identificador, index)
-                        }
-                      />{' '}
-                      {video.autor}
-                    </div>
-                  </Col>
-                );
-              })}
-            </Row>
-          </Container>
+                  if (index < 2) {
+                    colProps = {
+                      xs: 12,
+                      sm: 12,
+                      md: 6,
+                    };
+                  }
+                  return (
+                    <Col {...colProps}>
+                      <div className="categorypage_videos-box">
+                        <img
+                          src={`https://i.ytimg.com/vi/${video.identificador}/mqdefault.jpg`}
+                          alt=""
+                          onClick={() =>
+                            this._openLightbox(video.identificador, index)
+                          }
+                        />{' '}
+                        {video.autor}
+                      </div>
+                    </Col>
+                  );
+                })}
+              </Row>
+            </Container>
+          ) : (
+            <Container>
+              <Row className="justify-content-center">
+                <Col xs="2" lg="1">
+                  <div className="text-center">
+                    <img src={loading}></img>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
+          )}
         </div>
         {this.state.openLightbox ? (
           <VideoLightbox
