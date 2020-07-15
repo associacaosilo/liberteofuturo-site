@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.63398de4.chunk.css",
-    "main.js": "/static/js/main.45b3acfb.chunk.js",
-    "main.js.map": "/static/js/main.45b3acfb.chunk.js.map",
+    "main.js": "/static/js/main.f6aeec12.chunk.js",
+    "main.js.map": "/static/js/main.f6aeec12.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cdc07858.js",
     "runtime-main.js.map": "/static/js/runtime-main.cdc07858.js.map",
     "static/css/2.1d143842.chunk.css": "/static/css/2.1d143842.chunk.css",
-    "static/js/2.1a3574d2.chunk.js": "/static/js/2.1a3574d2.chunk.js",
-    "static/js/2.1a3574d2.chunk.js.map": "/static/js/2.1a3574d2.chunk.js.map",
+    "static/js/2.8024050c.chunk.js": "/static/js/2.8024050c.chunk.js",
+    "static/js/2.8024050c.chunk.js.map": "/static/js/2.8024050c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4b845b8e23b03ce4497f8d18e872172b.js": "/precache-manifest.4b845b8e23b03ce4497f8d18e872172b.js",
+    "precache-manifest.e3865a9094b0307146f96d21ab4e9626.js": "/precache-manifest.e3865a9094b0307146f96d21ab4e9626.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1d143842.chunk.css.map": "/static/css/2.1d143842.chunk.css.map",
     "static/css/main.63398de4.chunk.css.map": "/static/css/main.63398de4.chunk.css.map",
-    "static/js/2.1a3574d2.chunk.js.LICENSE.txt": "/static/js/2.1a3574d2.chunk.js.LICENSE.txt",
+    "static/js/2.8024050c.chunk.js.LICENSE.txt": "/static/js/2.8024050c.chunk.js.LICENSE.txt",
     "static/media/HOME_DESTAQUE_13.jpg": "/static/media/HOME_DESTAQUE_13.3f987b97.jpg",
     "static/media/HOME_DESTAQUE_2.jpg": "/static/media/HOME_DESTAQUE_2.6bf028b7.jpg",
     "static/media/HOME_DESTAQUE_4.jpg": "/static/media/HOME_DESTAQUE_4.7b79e5ad.jpg",
@@ -31,6 +31,7 @@
     "static/media/insurreicao.svg": "/static/media/insurreicao.530f0502.svg",
     "static/media/insurreicao.jpg": "/static/media/insurreicao.dee0408d.jpg",
     "static/media/laboratorio.jpg": "/static/media/laboratorio.2b1801b4.jpg",
+    "static/media/loading.svg": "/static/media/loading.55932d07.svg",
     "static/media/logo_claro.svg": "/static/media/logo_claro.45fa7390.svg",
     "static/media/logo_horizontal.svg": "/static/media/logo_horizontal.30f8fd2e.svg",
     "static/media/logo_vertical.svg": "/static/media/logo_vertical.bd4d1e00.svg",
@@ -42,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.cdc07858.js",
     "static/css/2.1d143842.chunk.css",
-    "static/js/2.1a3574d2.chunk.js",
+    "static/js/2.8024050c.chunk.js",
     "static/css/main.63398de4.chunk.css",
-    "static/js/main.45b3acfb.chunk.js"
+    "static/js/main.f6aeec12.chunk.js"
   ]
 }
