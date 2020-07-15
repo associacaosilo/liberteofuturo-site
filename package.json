@@ -28,7 +28,7 @@
     "eject": "react-scripts eject",
     "sass": "sass --watch ./src/sass/style.scss:./src/style.css --style compressed",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "echo 'liberteofuturo.net' > ./build/CNAME && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
