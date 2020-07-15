@@ -48,7 +48,10 @@ class Hero extends Component {
           </video>
         </div>
         {this.state.openLightbox ? (
-          <TeaserLightbox _openLightbox={this._openLightbox} />
+          <TeaserLightbox
+            _openLightbox={this._openLightbox}
+            id={home[lang].videoID}
+          />
         ) : (
           ''
         )}
