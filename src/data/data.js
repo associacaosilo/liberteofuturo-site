@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 const data = {
   categories: {
     antidotos: {
@@ -617,7 +619,7 @@ const data = {
       es: {
         menuTitle: 'El movimento',
         titulo: 'Nuestro movimento',
-        subtitulo: 'Liberte o futuro',
+        subtitulo: 'Libera el futuro',
         content: (
           <div>
             <p>
@@ -718,7 +720,7 @@ const data = {
               propuestos, solo contéstanos una pregunta:
             </p>
             <p>
-              S¿Que futuro quieres libertar? No desistas. Desistir de luchar por
+              ¿Que futuro quieres libertar? No desistas. Desistir de luchar por
               el futuro, en este momento histórico, puede significar desistir
               del presente.
             </p>
@@ -852,6 +854,17 @@ const data = {
                 divulgar, analisar e realizar ações.
               </li>
             </ul>
+            <hr />
+            <Link to="/laboratorio">PARTICIPE DOS LABORATÓRIOS SOCIAIS</Link>
+            <hr />
+            <p>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc74-rSYZuEfts-7xkj_oh5AFmdY-WUJWkTIgQicyo5w7vhGA/viewform"
+                target="_blank"
+              >
+                [Antiformulário]
+              </a>
+            </p>
           </div>
         ),
       },
@@ -941,6 +954,19 @@ const data = {
                 can share, analyse and take action.
               </li>
             </ul>
+            <hr />
+            <Link to="/laboratorio">
+              PARTICIPE IN THE SOCIAL LABORATORIES/WORKSHOP
+            </Link>
+            <hr />
+            <p>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc74-rSYZuEfts-7xkj_oh5AFmdY-WUJWkTIgQicyo5w7vhGA/viewform"
+                target="_blank"
+              >
+                [Antiformulário]
+              </a>
+            </p>
           </div>
         ),
       },
@@ -1024,6 +1050,19 @@ const data = {
                 analizar y llevar a cabo las acciones.
               </li>
             </ul>
+            <hr />
+            <Link to="/laboratorio">
+              PARTICIPA DE LOS LABORATORIOS SOCIALES
+            </Link>
+            <hr />
+            <p>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc74-rSYZuEfts-7xkj_oh5AFmdY-WUJWkTIgQicyo5w7vhGA/viewform"
+                target="_blank"
+              >
+                [Antiformulário]
+              </a>
+            </p>
           </div>
         ),
       },
