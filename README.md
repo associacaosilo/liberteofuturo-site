@@ -12,16 +12,37 @@ Crie uma pasta em seu computador para receber o projeto e rode o comando:
 
 E então instale os módulos com:
 
-**yarn**
+### `yarn`
 
 ou
 
-**npm install**
+### `npm install`
 
 ## Rodar em ambiente local
 
-**yarn start**
+### `yarn start`
 
-Acesse [http://localhost:3000](http://localhost:3000) para visualizar o site no navegador.
+ou
 
+### `npm run install`
+
+Acesse [http://localhost:3000](http://localhost:3000) para visualizar o site no navegador. <br />
 A página irá atualizar automaticamente quando os arquivos forem editados.
+
+## Publicação das edições
+
+Primeiro, faça o commit e push das mudanças feitas para o repositório:
+
+### git add .
+
+### git commit -m 'DESCRIÇÃO DAS EDIÇÕES'
+
+### git push
+
+Para publicar as alterações no Github Pages, use:
+
+### yarn deploy
+
+ou
+
+### npm run deploy
