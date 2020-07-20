@@ -72,3 +72,17 @@ Cada tópico e cada página tem seu conteúdo subdividido para cada uma das lín
 As páginas (Movimento, Laboratório, Home e Participe) tem uma propriedade chamada "content", cujo conteúdo é em [JSX](https://pt-br.reactjs.org/docs/introducing-jsx.html), uma forma similar ao HTML usada pelo React.
 
 Qualquer edição de conteúdo deve ser feita editando o arquivo [**/src/data.data.js**](https://github.com/associacaosilo/liberteofuturo-site/blob/master/src/data/data.js) e então seguindo os passos descritos em "Publicação das edições".
+
+# Estilo
+
+O CSS do site é feito usando [SASS](https://sass-lang.com/guide). As edições devem ser feitas nos arquivos que estão na pasta **/src/sass/**. Durante a edição dos arquivos **.scss**, deve-se rodar o comando "watch" do Sass para que as alterações sejam compiladas no arquivo **/src/style.css**:
+
+```sh
+yarn sass
+```
+
+ou
+
+```sh
+npm run sass
+```
