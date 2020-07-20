@@ -8,7 +8,7 @@ Para conseguir fazer atualizações neste diretório, é preciso solicitar autor
 
 Crie uma pasta em seu computador para receber o projeto e rode o comando:
 
-**git clone https://github.com/associacaosilo/liberteofuturo-site.git .**
+### `git clone https://github.com/associacaosilo/liberteofuturo-site.git .`
 
 E então instale os módulos com:
 
