@@ -1,5 +1,7 @@
 O projeto foi criado usando [Create React App](https://github.com/facebook/create-react-app).
 
+# Scripts para desenvolvimento e publicação
+
 ## Instalação
 
 Para conseguir fazer atualizações neste diretório, é preciso solicitar autorização com sua conta GitHub.
@@ -58,3 +60,15 @@ ou
 ```sh
 npm run deploy
 ```
+
+# Organização do conteúdo das páginas
+
+Os textos para as páginas do site, em todos os idiomas, estão reunidos no objeto **data**, descrito no arquivo [**/src/data.data.js**](https://github.com/associacaosilo/liberteofuturo-site/blob/master/src/data/data.js).
+
+Dentro do objeto, encontramos dois objetos principais, **categories** (que reúne os cinco tópicos do projeto) e **pages**, que reúne as páginas Movimento, Participe, Laboratório e Home.
+
+Cada tópico e cada página tem seu conteúdo subdividido para cada uma das línguas: **pt** (Português), **en** (Inglês) e **es** (Espanhol).
+
+As páginas (Movimento, Laboratório, Home e Participe) tem uma propriedade chamada "content", cujo conteúdo é em [JSX](https://pt-br.reactjs.org/docs/introducing-jsx.html), uma forma similar ao HTML usada pelo React.
+
+Qualquer edição de conteúdo deve ser feita editando o arquivo [**/src/data.data.js**](https://github.com/associacaosilo/liberteofuturo-site/blob/master/src/data/data.js) e então seguindo os passos descritos em "Publicação das edições".
