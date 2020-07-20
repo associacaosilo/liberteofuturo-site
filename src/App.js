@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Papa from 'papaparse';
 import _ from 'lodash';
 
@@ -55,6 +55,13 @@ class App extends Component {
     ],
   };
   componentDidMount() {
+    const queryString = window.location.href;
+    console.log(queryString);
+    if (queryString.includes('lang=en')) {
+      console.log('lalalala');
+      const lang = 'en';
+      this.setState({ lang });
+    }
     this.state.videosToFetch.map((item) => {
       Papa.parse(item.url, {
         download: true,
@@ -72,9 +79,6 @@ class App extends Component {
         },
       });
     });
-
-    const antidotoUrl =
-      'https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRs1WKi9EBE0T_Wlhh9QETMz-6lxqf27-ysUTZNmQOR_pVF3Wa27rPAPxUnTjz2Pn3Ds1BJokbjDqX9/pub?gid=0&single=true&output=csv';
   }
   _handleLang = (selectedLang) => {
     const lang = selectedLang;

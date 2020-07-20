@@ -36,16 +36,15 @@ class Category extends Component {
     const indexOfVideo = _.findIndex(videos, {
       identificador: this.state.currentVideo,
     });
-    const lengtOfVideos = videos.length;
     var currentVideo = '';
-    if (direction == 'up') {
-      if (videos.length == indexOfVideo + 1) {
+    if (direction === 'up') {
+      if (videos.length === indexOfVideo + 1) {
         currentVideo = videos[0].identificador;
       } else {
         currentVideo = videos[indexOfVideo + 1].identificador;
       }
     } else {
-      if (indexOfVideo == 0) {
+      if (indexOfVideo === 0) {
         currentVideo = videos[videos.length - 1].identificador;
       } else {
         currentVideo = videos[indexOfVideo - 1].identificador;

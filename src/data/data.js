@@ -44,9 +44,9 @@ const data = {
       es: {
         titulo: 'Emergencia Climática',
         subtitulo:
-          'TSugiere acciones para impedir la destrucción de la naturaleza, asegurándote de la proteger todas las formas de vida en el planeta (¡atrévete! y sé combatiente).',
+          'Sugiere acciones para impedir la destrucción de la naturaleza, asegurándote de la protección de todas las formas de vida en el planeta (¡atrévete! y sé combatiente).',
         descricao:
-          'Sugiere acciones para impedir la destrucción de la naturaleza, asegurándote de la proteger todas las formas de vida en el planeta (¡atrévete! y sé combatiente).',
+          'Sugiere acciones para impedir la destrucción de la naturaleza, asegurándote de la protección de todas las formas de vida en el planeta (¡atrévete! y sé combatiente).',
       },
     },
     consumo: {
@@ -142,7 +142,7 @@ const data = {
       es: {
         titulo: 'Este és el movimiento para liberar el futuro',
         subtitulo:
-          'Traga sus cinco propuestas, haga sus preguntas, imagina respuestas para el futuro pos pandemia.',
+          'Trae tus cinco propuestas, haz tus preguntas, imagina respuestas para el futuro pos pandemia',
         video: 'Ver el video',
         conheca: 'Sobre',
         participe: 'Participar',
@@ -691,9 +691,10 @@ const data = {
                 específico).
               </li>
               <li>
-                Emergencia Climática: sugiere acciones para impedir la
-                destrucción de la naturaleza, asegurándote de la proteger todas
-                las formas de vida en el planeta (¡atrévete! y sé combatiente).
+                Emergencia Climática: Sugiere acciones para impedir la
+                destrucción de la naturaleza, asegurándote de la protección de
+                todas las formas de vida en el planeta (¡atrévete! y sé
+                combatiente).
               </li>
               <li>
                 Insurrección: ¡Define la mejor acción de desobediencia civil
@@ -1028,9 +1029,9 @@ const data = {
                     específico).
                   </li>
                   <li>
-                    Emergencia Climática: sugiere acciones para impedir la
-                    destrucción de la naturaleza, asegurándote de la proteger
-                    todas las formas de vida en el planeta (¡atrévete! y sé
+                    Emergencia Climática: Sugiere acciones para impedir la
+                    destrucción de la naturaleza, asegurándote de la protección
+                    de todas las formas de vida en el planeta (¡atrévete! y sé
                     combatiente).
                   </li>
                   <li>
